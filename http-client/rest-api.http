@@ -8,6 +8,13 @@ Accept: application/json
 >> comments/get.json
 <> comments/get.json
 
+### Find By Id Comment
+GET {{baseUrl}}/comments/1
+Accept: application/json
+
+>> comments/get-by-id.json
+<> comments/get-by-id.json
+
 ### Create comments
 POST {{baseUrl}}/comments
 Accept: application/json
