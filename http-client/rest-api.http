@@ -7,3 +7,17 @@ Accept: application/json
 
 >> comments/get.json
 <> comments/get.json
+
+### Create comments
+POST {{baseUrl}}/comments
+Accept: application/json
+Content-Type: application/json
+
+{
+  "text": "New comment"
+}
+
+>> comments/post.json
+<> comments/post.json
+
+
