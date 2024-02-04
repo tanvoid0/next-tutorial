@@ -38,3 +38,10 @@ Content-Type: application/json
 
 >> comments/patch.json
 <> comments/patch.json
+
+### Delete comment
+DELETE {{baseUrl}}/comments/3
+Accept: application/json
+
+>> comments/delete.json
+<> comments/delete.json
