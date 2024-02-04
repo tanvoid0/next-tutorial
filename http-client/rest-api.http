@@ -1,0 +1,9 @@
+@baseUrl=http://localhost:3000
+@httpResponse="http-client"
+
+### Find All comments
+GET {{baseUrl}}/comments
+Accept: application/json
+
+>> comments/get.json
+<> comments/get.json
