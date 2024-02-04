@@ -51,3 +51,9 @@ Accept: application/json
 
 >> comments/delete.json
 <> comments/delete.json
+
+
+### Get Profile
+GET {{baseUrl}}/profile/api
+Accept: application/json
+Authorization: Bearer 123
