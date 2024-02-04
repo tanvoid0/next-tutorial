@@ -27,4 +27,14 @@ Content-Type: application/json
 >> comments/post.json
 <> comments/post.json
 
+### Update comment
+PATCH {{baseUrl}}/comments/3
+Accept: application/json
+Content-Type: application/json
 
+{
+  "text": "Updated Comment"
+}
+
+>> comments/patch.json
+<> comments/patch.json
