@@ -8,6 +8,12 @@ Accept: application/json
 >> comments/get.json
 <> comments/get.json
 
+### Find all by query param
+GET {{baseUrl}}/comments?query=first
+Accept: application/json
+
+<> comments/get-query.json
+
 ### Find By Id Comment
 GET {{baseUrl}}/comments/1
 Accept: application/json
